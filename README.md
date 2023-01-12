@@ -1,1 +1,1 @@
-# 2d-fighting-game
+# In browser 2d fighting game
