@@ -1,0 +1,29 @@
+{
+  "name": "Fighting game PWA",
+  "short_name": "Fighting game",
+  "start_url": "./",
+  "scope": ".",
+  "background_color": "pink",
+  "theme_color": "#009578",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "images/icon-1.png",
+      "sizes": "225x225",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "images/icon-2.webp",
+      "sizes": "256x256",
+      "type": "image/webp",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "images/icon-3.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#009578" />
+    <title>Fighting game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="apple-touch-icon" href="./images/icon-1.jpg" />
+  </head>
+
+  <body>
+    <!-- red container div -->
+    <div class="red-container">
+      <!-- smaller red container div -->
+      <div class="smaller-red-container">
+        <!-- palyer health -->
+        <div class="player-bar">
+          <div class="player-health"></div>
+          <div class="player-health-reduction"></div>
+        </div>
+        <!-- timer -->
+        <div class="timer">10</div>
+        <!-- enemy health -->
+        <div class="enemy-bar">
+          <div class="enemy-health"></div>
+          <div class="health-reduction"></div>
+        </div>
+        <div class=""></div>
+      </div>
+      <div class="display-text">Tie</div>
+      <canvas id="canvas"></canvas>
+    </div>
+    <div class="controls">
+      <h1>Controls</h1>
+      <div class="player1-controls">
+        <h2>Player 1</h2>
+        <div>Move Left: a</div>
+        <div>Move Right: d</div>
+        <div>Jump: w</div>
+        <div>Attack: space-bar</div>
+      </div>
+      <br />
+      <div class="player2-controls">
+        <h2>Player 2</h2>
+        <span>Move Left: ← </span>
+        <div>Move Right: →</div>
+        <div>Jump: ↑</div>
+        <div>Attack: ↓</div>
+      </div>
+    </div>
+    <button class="end-button">
+      <a class="end-gme" href="index.html">Restart game</a>
+    </button>
+    <script src="swRegister.js" charset="utf-8"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+      integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/utils.js" charset="utf-8"></script>
+    <script src="js/classes.js" charset="utf-8"></script>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
